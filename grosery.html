@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <style>
+        *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.h2 a{
+  font-size: 2em;
+  color: orangered;
+  user-select: none;
+}
+.navigation a {
+  position: relative;
+  font-size: 1.1em;
+  color:#fff;
+  border: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 500px;
+  margin-left: 40px;
+}
+.navigation a::after{
+  content: '';
+  position: absolute;
+  left: 0px;
+  bottom: -6px;
+  width: 60px;
+  height: 3px;
+  background: #fff;
+  border-radius: 5px;
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: transform .5s;
+}
+.navigation a:hover:after{
+  transform: scaleX(1);
+}
+body{
+  min-height: 100vh;
+  background: url(./istockphoto-1349125003-612x612.jpg) no-repeat;
+  backface-visibility: hidden;
+  background-size: cover;
+  background-position: center;
+}
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 80;
+}
+table{
+    display: flex;
+    justify-items: center;
+    text-align: center;
+}
+
+body{
+  color: #fff;
+}
+#main{
+  background-color: brown;
+  width: 100%;
+  height: 50px;
+  font-size: 32px;
+  font-family: serif;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-shadow: black 1.5px 1,5px;
+}
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h2> Hajib Mart</h2>
+        <nav class="navigation">
+            <a href="./index.html"><b>Home</b></a>
+            <a href="./about.html"><b>About</b></a>
+            <a href="./contactus.html"><b>Contact us</b></a>
+        </nav>
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+     <div>
+      <p id="main">spises and Pulses</p>
+     </div>
+     <div>
+      <p class="items">MUNG BEAN ------------------------------------Rs:250 Rs:230</p>
+      <br>
+      <p class="items"> RED LENTIL------------------------------------ <span>RS:200</span> RS:180 </p>
+      <br>
+      <p class="items"> HORSE GREAM------------------------------------ <span>RS:400</spaN> RS:370 </p>
+      <br>
+      <p class="items"> CHICKPEAS------------------------------------ <span>RS:280</span> RS:260 </p>
+      <br>
+      <p class="items"> BLACK GRAM------------------------------------ <span>RS:450</span> RS:300 </p>
+     </div>
+     <div>
+      <p id="main">Brand Products</p>
+     </div>
+     <div>
+      <p class="items"> LUX SOAP ------------------------------------ <span>RS:130</span> RS:120</p>
+      <br>
+      <p class="items"> PAMALIV  ------------------------------------ <span>RS:400</span> RS:360</p>
+      <br>
+      <p class="items"> LIFE BOY ------------------------------------ <span>RS:400</span> RS:37></p>
+      <br>
+      <p class="items"> PANTINE ------------------------------------ <span>RS:500</span>RS:450</p>
+      <br>
+      <p class="items"> HEAD&SHOULDER ------------------------------------ <span>RS260</span> RS:230</p>
+     </div>
+     <div>
+      <p id="main">Other Items</p>
+     </div>
+     <div>
+      <p class="items"> BLENDER ------------------------------------ <span>RS:5000</span>RS:4500</p>
+      <br>
+      <p class="items"> BSKIT ------------------------------------ <span>RS:500</span> RS:400</p>
+      <br>
+      <p class="items"> TEAPORT ------------------------------------ <span>RS:3000</span>RS:2500</p>
+      <br>
+      <p class="items"> CUP SET ------------------------------------ <span>RS:3500</span> RS:3000</p>
+      <br>
+      <p class="items"> JUICER MACHINE ------------------------------------ <span>RS:7000</span> RS:6000</p>
+     </div>
+    </body>
+</html>

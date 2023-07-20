@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.h2 a{
+  font-size: 2em;
+  color: orangered;
+  user-select: none;
+}
+.navigation a {
+  position: relative;
+  font-size: 1.1em;
+  color:#fff;
+  border: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 500px;
+  margin-left: 40px;
+}
+.navigation a::after{
+  content: '';
+  position: absolute;
+  left: 0px;
+  bottom: -6px;
+  width: 60px;
+  height: 3px;
+  background: #fff;
+  border-radius: 5px;
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: transform .5s;
+}
+.navigation a:hover:after{
+  transform: scaleX(1);
+}
+body{
+  min-height: 100vh;
+  background: url(./istockphoto-1349125003-612x612.jpg) no-repeat;
+  backface-visibility: hidden;
+  background-size: cover;
+  background-position: center;
+}
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 80;
+}
+table{
+    display: flex;
+    justify-items: center;
+    text-align: center;
+}
+#main{
+  background-color: brown;
+  width: 100%;
+  height: 50px;
+  font-size: 32px;
+  font-family: serif;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-shadow: black 1.5px 1,5px;
+}
+span{
+  text-decoration: line-through;
+}
+body{
+  color: #fff;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h2> Hajib Mart</h2>
+        <nav class="navigation">
+            <a href="./index.html"><b>Home</b></a>
+            <a href="./about.html"><b>About</b></a>
+            <a href="./contactus.html"><b>Contact us</b></a>
+        </nav>
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <br>
+    <DIv>
+      <P id="main">BURGERS</P>
+    </DIv>
+    <div>
+       <P class="items">ZiNGER BURGER       ---------------------------------------- <SPan>RS:400</SPan>RS:350
+       <br>
+       <P class="items">CHIKEN BURGER        ---------------------------------------- <SPan>RS:400</SPan>RS:350
+            <br>
+         <P class="items">ZINGER CHEZE BURGER  ---------------------------------------- <SPan>RS:450</SPan>RS:400
+       <P class="items">SPICY ZiNGER BURGER  ---------------------------------------- <SPan>RS:400</SPan>RS:350
+       <P class="items">DOUBLE DEKER         ---------------------------------------- <SPan>RS:600</SPan>RS:550
+     </div>
+     <div>
+      <p id="main">PIZZZA</p>
+     </div>
+     <div>
+      <P class="items">SMALL PIZZA         ---------------------------------------- <span>RS:400</span>RS:350</P>
+      <br>
+      <P class="items">MEDIUM PIZZA        ---------------------------------------- <span>RS:700</span>RS:650</P>
+      <br>
+      <P class="items">LARGE PIZZA         ---------------------------------------- <span>RS:1200</span>RS:1150</P>
+      <br>
+      <P class="items">FAMILY PIZZA        ---------------------------------------- <span>RS:1500</span>RS:1400</P>
+     </div>
+     <div>
+      <p id="main">SALIDS</p>
+     </div>
+     <div>
+      <p class="items">RUSSIAN SALAD        ----------------------------------------  <span>RS:350</span>RS:300</p>
+      <br>
+      <p class="items"> PASTA               ----------------------------------------  <span>RS:350</span>RS:300</p>
+     </div>
+     <div>
+      <p id="main">BBQ ITEMS</p>
+     </div>
+     <div>
+        <p class="items"> CHIKEN TIKKA          ---------------------------------------- <span>RS:450</span>RS;400</p>
+        <br>
+        <p class="items"> CHIKEN BROAT          ---------------------------------------- <span>RS:450</span>RS;400</p>
+        <br>
+        <p class="items"> CHIKEN MALI BOTI      ---------------------------------------- <span>RS:450</span>RS;400</p>
+        <br>
+        <p class="items"> CHIKEN SEKH KABAB     ---------------------------------------- <span>RS:450</span>RS;400</p>
+     </div>
+</body>
+</html>
